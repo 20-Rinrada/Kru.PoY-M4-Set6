@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+n = int(input("กรุณากรอกตัวเลข: "))
+if n /5 :
+    print("Yes")
+elif n % 5 :
+    print("No")

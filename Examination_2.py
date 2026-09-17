@@ -6,4 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-height = int(input())
+height = int(input("กรุณากรอกส่วนสูง:  cm."))
+if height>=140 cm.:
+    print("Can Ride")
+elif height<140 cm.:
+    print("Cannot Ride")
+
